@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:\articles
+web: gunicorn <crud_api>.wsgi --log-file -
